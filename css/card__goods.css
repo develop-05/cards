@@ -584,7 +584,6 @@ a{
     padding-top: 30px;
 }
 
-
 /*guarantee*/
 
 .guarantee{
@@ -627,7 +626,6 @@ a{
     max-width: 683px;
     display: flex;
     justify-content: center;
-    /* margin-left: 32%; */
     margin: auto;
 }
 
@@ -746,7 +744,7 @@ a{
 }
 
 .location__footer4{
-    margin-left: 220px;
+    margin-left: 620px;
 }
 
 .footer-soc{
@@ -825,7 +823,6 @@ a{
 .footer-btn{
     margin-left: 830px;
 }
-
 /*fone==========================================================================**/
 
 .fone{
