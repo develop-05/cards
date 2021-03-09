@@ -1,3 +1,10 @@
+@media(max-width: 1850px) {
+    .choice__item{
+        margin-right: 10px;
+    }
+}
+
+
 @media(max-width: 1805px) {
     .header__goods{
         display: inline-block;
@@ -5,6 +12,7 @@
         margin-top:25px;
         margin-right: 80px;
     }
+
 }
 
 @media(max-width: 1796px) {
@@ -38,6 +46,10 @@
         margin-left: 50px;
         margin-top:25px;
         margin-right: 20px;
+    }
+
+    .premium{
+        width: 400px;
     }
 }
 
