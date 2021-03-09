@@ -1,0 +1,972 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/card__goods.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/media-card.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>Карточка товара</title>
+</head>
+<body>
+
+
+    <header class="header">
+
+      <div class="header__inner">
+
+    <div class="prev__logo">
+        <img class="logo" src="images/logo.svg" alt="logo">
+    </div>
+
+
+      <div class="header__goods">
+        <input class="search-input" type="text" placeholder="Поиск товаров...">
+        <img class="img-search-input" src="images/search.svg" alt="search">
+
+        <i class="far size fa-heart"></i>
+        <i class="fas size fa-random"></i>
+        <i class="fas size fa-shopping-cart"></i>
+
+        <i class="far size fa-user-circle"><span class="price-header-acount">00.000 ₽</span></i>
+    </div>
+
+
+    <img class="phone-img" src="images/phone.svg" alt="">
+    <div class="phone">
+        <a class="number-header" href="tel:+88007707152">8 800 770-71-52</a>
+        <div class="phone-free-russia">Звонок по России бесплатный</div>
+        <button id="btn-phone" class="btn-phone">Заказать звонок</button>
+    </div>
+
+
+      </div>
+    </header>
+
+
+    <li class="catalog-mobile menu__list-item"><a class="menu__list-link pad pad-mobile">МЕНЮ</a><img class="arrow-nav arrow-nav-mobile" src="images/arrow.svg" alt="">
+        <ul class="sub-catalog">
+            <li><a href="#">Мужские наручные часы</a></li>
+            <li><a href="#">Спотивные наручные часы</a></li>
+            <li><a href="#">Фитнес браслеты</a></li>
+            <li><a href="#">Детские наручные часы</a></li>
+            <li><a href="#">Женские наручные часы</a></li>
+
+            <li class="menu__list-item">
+                <a class="menu__list-link" href="#">ГЛАВНАЯ</a>
+            </li>
+
+            <li class="menu__list-item magazine">
+                <a class="menu__list-link" href="#">МАГАЗИН</a>
+            </li>
+
+            <li class="menu__list-item ">
+                <a class="menu__list-link" href="#">БЛОГ</a>
+            </li>
+
+            <li class="menu__list-item">
+                <a class="menu__list-link" href="#">ОТЗЫВЫ</a>
+            </li>
+
+            <li class="menu__list-item">
+                <a class="menu__list-link" href="#">КОНТАКТЫ</a>
+            </li>
+
+            <li class="menu__list-item">
+                <a class="menu__list-link" href="#">О НАС</a>
+            </li>
+
+            <li class="menu__list-item">
+                <a class="menu__list-link" href="#">ОПЛАТА И ДОСТАВКА</a>
+            </li>
+        </ul>
+    </li>
+
+
+
+    <section class="navigation">
+
+
+        <div class="nav">
+            <ul class="menu__list">
+
+
+
+                <li class="catalog menu__list-item"><a class="menu__list-link pad">КАТАЛОГ ТОВАРОВ</a><img class="arrow-nav" src="images/arrow.svg" alt="">
+                    <ul class="sub-catalog">
+                        <li><a href="#">Мужские наручные часы</a></li>
+                        <li><a href="#">Спотивные наручные часы</a></li>
+                        <li><a href="#">Фитнес браслеты</a></li>
+                        <li><a href="#">Детские наручные часы</a></li>
+                        <li><a href="#">Женские наручные часы</a></li>
+                    </ul>
+                </li>
+            
+            <div class="sub__menu-list">
+
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#">ГЛАВНАЯ</a>
+                </li>
+
+                <li class="menu__list-item magazine">
+                    <a class="menu__list-link maz">МАГАЗИН<img class="arrow-nav arrow-magazine" src="images/arrow.svg" alt=""></a>
+                    
+                    <ul class="sub-catalog magazine-ct">
+                        <li><a class="menu__list-link"  href="#">AMST</a></li>
+                    </ul>
+
+                </li>
+
+                <li class="menu__list-item ">
+                    <a class="menu__list-link" href="#">БЛОГ</a>
+                </li>
+
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#">ОТЗЫВЫ</a>
+                </li>
+
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#">КОНТАКТЫ</a>
+                </li>
+
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#">О НАС</a>
+                </li>
+
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#">ОПЛАТА И ДОСТАВКА</a>
+                </li>
+
+            </div>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="fone">
+        <div class="fone__inner">
+
+            <div class="fone__block">
+                <div class="title__fone">Лучшие часы для мужчин </div>
+                <div class="text__fone">Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обусловливает важность позиций, занимаемых участниками в отношении поставленных задач. В рамках спецификации современных стандартов, элементы политического процесса превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. С учётом сложившейся международной обстановки, базовый вектор развития играет определяющее значение для благоприятных перспектив. Банальные, но неопровержимые выводы, а также элементы политического процесса ассоциативно распределены по отраслям. Банальные, но неопровержимые выводы, а также стремящиеся вытеснить традиционное производство, нанотехнологии являются только методом политического участия и ограничены исключительно образом мышления.</div>
+                <a class="btn__fone" href="#">Перейти в каталог</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="choice">
+        <div class="choice__inner">
+
+            <div class="title__choice">МЫ ПРЕДЛАГАЕМ ВАМ САМЫЙ ЛУЧШИЙ СЕРВИС</div>
+            <div class="suptitle__choice">
+                Ясность нашей позиции очевидна: социально-экономическое развитие, в своём классическом представлении, допускает внедрение первоочередных требований.
+            </div>
+
+            <div class="choice__block">
+
+                <div class="choice__item">
+                    <img class="choice-img premium" src="images/choice-img1.jpg" alt="">
+                    <div class="choice__count">6000</div>
+                    <p class="choice__des">Штаб-квартира, расположенная в Гуанчжоу, занимает площадь более 6000 квадратных метров</p>
+                </div>
+
+                <div class="choice__item">
+                    <img class="choice-img premium" src="images/choice-img2.png" alt="">
+                    <div class="choice__count">60</div>
+                    <p class="choice__des">SKMEI зарегистрирована более чем в 60 странах мира</p>
+                </div>
+
+                <div class="choice__item">
+                    <img class="choice-img premium" src="images/choice-img3.jpg" alt="">
+                    <div class="choice__count">2010</div>
+                    <p class="choice__des">Guangzhou SKMEI Watch Co., Ltd Основана в 2010 году в материковом Китае</p>
+                </div>
+
+
+                <div class="choice__item-wat">
+                    <img class="choice-img" src="images/choice-img4.jpg" alt="">
+                    <div class="choice__class">Мужские наручные часы</div>
+                    <a class="choice__wat-btn " href="">Посмотреть</a>
+                </div>
+
+
+                <div class="choice__item-wat">
+                    <img class="choice-img" src="images/choice-img5.jpg" alt="">
+                    <div class="choice__class choice__class-mini">Спортивные наручные часы</div>
+                    <a class="choice__wat-btn btn-mini" href="">Посмотреть</a>
+                </div>
+
+
+                <div class="choice__item-wat">
+                    <img class="choice-img" src="images/child.jpg" alt="">
+                    <div class="choice__class choice__class-mini">Детские наручные часы  </div>
+                    <a class="choice__wat-btn btn-mini" href="">Посмотреть</a>
+                </div>
+
+                <div class="choice__item-wat">
+                    <img class="choice-img choice-img7" src="images/choice-img7.jpg" alt="">
+                    <div class="choice__class">Фитнес браслеты</div>
+                    <a class="choice__wat-btn btn7" href="">Посмотреть</a>
+                </div>
+
+                <div class="choice__item-wat">
+                    <img class="big-choice-img choice-img" src="images/choice-img8.jpg" alt="">
+                    <div class="choice__class choice__class-big">Женские наручные часы</div>
+                    <a class="choice__wat-btn choice__wat-btn-big" href="">Посмотреть</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section__sales">
+
+        <div class="recomend">
+            <div class="rec">Рекомендуем</div>
+
+            <div class="rec__item rec__item-first">
+                <img class="rec-img" src="images/rec1.png" alt="">
+                <div class="rec__text">Часы с шагомером и пульсометром SKMEI 1180 - Синие</div>
+                <div class="rec__price">2190 ₽</div>
+            </div>
+
+            <div class="rec__item">
+                <img class="rec-img" src="images/rec2.png" alt="">
+                <div class="rec__text">Часы SKMEI 1155 - Черные/Белые</div>
+                <div class="rec__price">1490 ₽</div>
+            </div>
+
+            <div class="rec__item">
+                <img class="rec-img" src="images/rec3.png" alt="">
+                <div class="rec__text">Часы SKMEI 0931 - Черные</div>
+                <div class="rec__price">1190 ₽</div>
+            </div>
+
+        </div>
+
+        <div class="sales__inner">
+
+            <div class="navigation__sales">
+            <ul class="sales-nav">
+                <li class="sales-nav-item">Выбор часов</li>
+                <li class="sales-nav-item red">НОВЫЕ ТОВАРЫ</li>
+                <li class="sales-nav-item item3">СПОРТИВНЫЕ ЧАСЫ</li>
+                <li class="sales-nav-item last-item">ФИТНЕС ЧАСЫ</li>
+            </ul>
+        <div class="sales__line"></div>
+
+        </div>
+
+        <div class="slider__sales">
+
+            <div class="slider__item slider__sales-item">
+                <div class="sales__slider-item">
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat2.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat3.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat4.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat5.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat6.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+            <div class="slider__item">
+                <div class="sales__slider-item slider__sales-item">
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat2.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat3.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat4.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat5.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat6.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="slider__item">
+                <div class="sales__slider-item slider__sales-item">
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat2.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat3.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat4.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat5.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat6.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+            <div class="slider__item">
+                <div class="sales__slider-item slider__sales-item">
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat2.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat3.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat4.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat5.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                    <div class="sales__block">
+                        <img class="sales-wat-img" src="images/sales-wat6.png" alt="">
+                        <div class="bg-img"></div>
+                    <div class="icons-sales">
+                        <div class="heart"><i class="fas sales fa-heart"></i></div>
+                        <div class="random"><i class="fas sales fa-random"></i></div>
+                        <div class="sear"><i class="fas sales fa-search"></i></div>
+                    </div>
+                        <a class="choice__wat-btn sales-btn" href="">В корзину</a>
+
+                        <div class="sales-wat-text">Часы наручные “Слава” механические. Автоподзавод. 1873095/300-6Т15</div>
+                        <div class="sales-wat-price">21800 ₽</div>
+                        <a class="sales-wat-btn" href="">Купить в 1 клик</a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="guarantee">
+        <div class="guarantee__inner">
+
+            <div class="guaeantee__light-title">ПРОДАЁМ ОРИГИНАЛЬНЫЕ КАЧЕСТВЕННЫЕ ЧАСЫ</div>
+            <div class="guaeantee__title">ИНТЕРНЕТ МАГАЗИН ЧАСОВ SKMEI-Shop</div>
+            <div class="guarantee__suptitle">Продажа оригинальных часов мировых брендов, доступные цены, быстрое оформление и доставка, ассортимент выбора. </div>
+
+
+            <div class="guarantee__block">
+                <div class="guarantee__text guarantee__text1">Желаете удивить друга оригинальным подарком? Хотите приобрести
+креативный и полезный девайс для своего дома? Обратите внимание на
+богатый ассортиментинтерн ет-магазина SKMEI-Shop. Отличные часы
+различных мировых брендов для самых разных аудиторий нашего сайта.
+Мы предлагаем для магазина только лучшие модели часов.
+
+В каталоге представлены необычные «умные» часы, с помощью которых вы
+получите удобное решение.</div>
+            </div>
+
+            <div class="guarantee__text guarantee__text2">Мы не продаем вещи, которые устарели или неинтересны
+пользователям. Наша цель – идти в ногу с прогрессом и в
+некоторых случаях даже опережать его.  Часы представленные в
+нашем интернет-магазине, отличаются не только современным
+уникальным дизайном, но и прогрессивными функциями.
+
+Заказав их, вы значительно облегчите ежедневную жизнь, а
+также внесете разнообразие в интерьер квартиры или офиса.</div>
+</div>
+
+    <div class="advantages">
+
+    <div class="pluses">
+        <img class="img-ad" src="images/cube.svg" alt="">
+        <div class="ad__text">ДОСТАВКА
+БЫСТРАЯ ДОСТАВКА</div>
+    </div>
+
+    <div class="pluses">
+        <img class="img-ad" src="images/safe.svg" alt="">
+        <div class="ad__text">ГАРАНТИЯ
+ГАРАНТИЯ КАЧЕСТВА</div>
+    </div>
+
+    <div class="pluses">
+        <img class="img-ad" src="images/allday.svg" alt="">
+        <div class="ad__text">ПОДДЕРЖКА 24/7
+ВСЕГДА НА СВЯЗИ</div>
+    </div>
+
+    <div class="pluses">
+        <img class="img-ad" src="images/money.svg" alt="">
+        <div class="ad__text">ДОСТАВКА
+БЫСТРАЯ ДОСТАВКА</div>
+    </div>
+    </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__inner">
+
+        
+        <div class="block__footer">
+
+            <div class="location__footer">
+                <p class="footer__about-shop">Интернет магазин по продаже часов. мужские часы, новинки, женские часы, часы для детей и спортивные часы.</p>
+                
+                <div class="footer-info">
+                    <img src="images/location.svg" alt="">
+                    <p class="text-info">Москва Варшавское шоссе д. 42</p>
+                </div>
+
+                <div class="footer-info">
+                    <img src="images/smartphone.svg" alt="">
+                    <p class="text-info"> Телефон: 8 (800) 770-71-52</p>
+                </div>
+
+                <div class="footer-info">
+                    <img src="images/telephone.svg" alt="">
+                    <p class="text-info">Звонок по России бесплатный</p>
+                </div>
+
+                <div class="footer-info">
+                    <img src="images/email.svg" alt="">
+                    <p class="text-info">Почта: modern-zakazi@yandex.ru</p>
+                </div>
+
+            </div>
+
+
+            <div class="location__footer">
+                <p class="footer__about-shop">Информация</p>
+                
+                <div class="footer-info">
+                    <a href="#" class="text-info">Варианты оплаты</a>
+                </div>
+
+                <div class="footer-info">
+                    <a href="#" class="text-info">Доставка и самовывоз</a>
+                </div>
+
+                <div class="footer-info">
+                    <a href="#" class="text-info">Гарантия</a>
+                </div>
+
+                <div class="footer-info">
+                    <a href="#" class="text-info">Условия соглашения</a>
+                </div>
+
+                <div class="footer-info">
+                    <a href="#" class="text-info">Карта сайта</a>
+                </div>
+            </div>
+
+
+            <div class="location__footer location__footer3">
+                <p class="footer__about-shop">Категории</p>
+
+                <div class="footer-info">
+                    <a href="#" class="text-info">Детские часы</a>
+                </div>
+                
+                <div class="footer-info">
+                    <a href="#" class="text-info">Женские часы</a>
+                </div>
+
+                <div class="footer-info">
+                    <a href="#" class="text-info">Мужские часы</a>
+                </div>
+
+                <div class="footer-info">
+                    <a href="#" class="text-info">Смарт часы</a>
+                </div>
+            </div>
+
+
+            <div class="location__footer location__footer3">
+                <p class="footer__about-shop">Личный кабинет</p>
+
+                <div class="footer-info">
+                    <a href="#" class="text-info">Личный кабинет</a>
+                </div>
+                
+                <div class="footer-info">
+                    <a href="#" class="text-info">История заказов</a>
+                </div>
+
+                <div class="footer-info">
+                    <a href="#" class="text-info">Закладки</a>
+                </div>
+
+                <div class="footer-info">
+                    <a href="#" class="text-info">Рассылка</a>
+                </div>
+            </div>
+
+
+            <div class="location__footer location__footer4">
+                <p class="footer__about-shop">Наши социальные сети: как принято считать, многие известные личности, вне зависимости от их уровня.</p>
+
+                <div class="footer-info footer-soc">
+                    <a href="#" class="text-info"><img src="images/vk.svg" alt=""></a>
+                </div>
+                
+                <div class="footer-info footer-soc">
+                    <a href="#" class="text-info"><img src="images/youtube.svg" alt=""></a>
+                </div>
+
+                <div class="footer-info footer-soc">
+                    <a href="#" class="text-info"><img src="images/class.svg" alt=""></a>
+                </div>
+
+                <div class="footer-info footer-soc">
+                    <a href="#" class="text-info"><img src="images/inst.svg" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="footer__line"></div>
+
+        <div class="title__interest-footer">Интересные статьи:</div>
+
+        <div class="footer__interest">
+
+            <div class="interst__block-footer">
+                <img src="images/expensive.png" alt="">
+                <div class="suptitle-interest">Инструкция по настройке, эксплуатации часов AMST</div>
+                <p class="interest__text">Часы AMST с японским механизмом Miyota отличаются высокой
+прочностью, водостойкостью.....</p>
+            </div>
+
+
+            <div class="interst__block-footer interst__block-footer2">
+                <img src="images/watchs-footer.png" alt="">
+                <div class="suptitle-interest">Наручные часы Skmei</div>
+                <p class="interest__text2">Часы Skmei – надежный помощник для спортсменов и любителей
+активного образа жизни...</p>
+            <a href="#" class="footer-btn"><img src="images/footer-btn.png" alt=""></a>
+            </div>
+        </div>
+        <div class="last__footer-text">© Официальный интернет магазин 2010 - 2021</div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/card-goods.js"></script>
+    
+</body>
+</html>
