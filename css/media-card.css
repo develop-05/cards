@@ -681,6 +681,15 @@
         margin-left: 10px;
     }
 
+    .footer-btn{
+        margin-left: 100px;
+        margin-top: 150px;
+    }
+
+    .prop-footer-footer{
+        padding-bottom: 100px;
+    }
+
 }    
 
 
@@ -968,6 +977,10 @@
         max-width: 100%;
         max-width: 123px;
         height: 131px;
+    }
+
+    .footer-btn{
+        margin-top: 200px;
     }
 
 }
