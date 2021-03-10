@@ -89,6 +89,30 @@
         margin-left: 100px;
     }
 }
+@media(max-width: 1550px) {
+    .search-input{
+        max-width: 370px;
+    }
+}
+
+@media(max-width: 1680px) {
+    .input-mini{
+        max-width: 600px;
+    }
+    
+}
+@media(max-width: 1758px) {
+    .span{
+        font-weight: bold;
+        /* display: flex; */
+        /* justify-content: center; */
+        display: inline-block;
+        margin-left: 0px;
+    }
+    
+}
+
+
 
 
 @media(max-width: 1515px) {
@@ -221,7 +245,7 @@
     }
 
     .search-input{
-        width: 500px;
+        width: 400px;
     }
 
 }
@@ -324,7 +348,6 @@
         margin-left: 00px;
     }
 }
-
 
 @media(max-width: 1160px) {
     .last__footer-text{
