@@ -151,6 +151,11 @@
 }
 
 
+.slider__sales .slick-dots li:first-child{
+    margin-left: -210px;
+}
+
+
 .slider__sales .slick-dots li:nth-child(3){
     list-style: none;
     margin-right: 110px;

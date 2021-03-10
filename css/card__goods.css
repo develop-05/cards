@@ -1099,6 +1099,7 @@ a{
 .sales-nav{
     display: flex;
     margin-top: 0px;
+    margin-left: 100px;
 }
 .sales-nav-item{
     margin-right: 20px;
@@ -1112,13 +1113,13 @@ a{
 }
 
 .sales__line{
-    min-width:130%;
+    min-width: 111%;
     border: 1px solid #B3B3B3;
 }
 
 .navigation__sales{
     position: absolute;
-    margin-left: -30px;
+    /* margin-left: 30px; */
 }
 
 .slider__sales-item{
@@ -1175,7 +1176,6 @@ a{
     color: #F45546;
 }
 
-
 .btn7{
     margin-left: -350px;
 }
@@ -1197,9 +1197,6 @@ a{
 .choice__class-mini{
     max-width: 225px;
 }
-
-
-
 
 .choice__leng{
     display: flex;
