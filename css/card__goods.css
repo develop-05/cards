@@ -269,11 +269,6 @@ a{
     display: block;
 }
 
-
-
-
-
-
 .arrow-magazine{
     margin-left: 5px;
     position: absolute;
@@ -290,16 +285,6 @@ a{
     margin-left: 40px;
     margin-top: 10px;
 }
-
-/* .magazine > ul{
-    position: absolute;
-    margin-top: 75px;
-    padding-left: 0px;
-} */
-
-/* .magazine-active > ul{ 
-    display: block;
-} */
 
 .magazine > ul {
     margin-left: 0;
@@ -1202,6 +1187,8 @@ a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* margin: auto; */
+    margin-left: 10px;
 }
 
 .span{
