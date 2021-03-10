@@ -38,6 +38,25 @@
         margin-left: -200px;
         margin-top: 30px;
     }
+
+    .location__footer-cab{
+        margin-right: 120px;
+    }
+}
+@media(max-width: 1775px) {
+    .location__footer-cab{
+        margin-right: 30px;
+    }
+}
+
+@media(max-width: 1665px) {
+    .location__footer-cab{
+        margin-right: 0px;
+    }
+
+    .location__footer4{
+        margin-left: 75px;
+    }
 }
 
 @media(max-width: 1705px) {
@@ -133,6 +152,10 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 18px;
+    }
+
+    .location__footer{
+        margin-left: 70px;
     }
 }
 
@@ -342,10 +365,6 @@
         flex-wrap: wrap;
     }
 
-    .ad__text{
-        max-width: 140px;
-    }
-
     .footer__interest{
         margin-left: 10px;
     }
@@ -516,6 +535,14 @@
 
     .section__sales{
         margin-left: 150px;
+    }
+
+    .pluses-line{
+        display: none;
+    }
+
+    .pluses{
+        margin-right: 50px;
     }
 
 }
