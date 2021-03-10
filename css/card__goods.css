@@ -67,6 +67,7 @@ a{
 
 .phone{
     margin-top: 15px;
+    margin-left: 5px;
 }
 
 .number-header{
@@ -79,6 +80,8 @@ a{
     font-size: 10px;
     line-height: 12px;
     color: #000000;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 
@@ -110,7 +113,7 @@ a{
     height: 52px;
     width: 32px;
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: 25px;
 }
 
 /*nav*/
