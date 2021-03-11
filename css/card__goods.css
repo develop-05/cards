@@ -628,9 +628,9 @@ a{
 
 .guarantee__block{
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: center;
     margin-top: 30px;
-    margin-left: 150px;
+    margin-left: 75px;
 }
 
 .guarantee__text{
@@ -643,23 +643,24 @@ a{
 }
 
 .guarantee__text1{
-    max-width: 50%;
+    width: 50%;
+    margin-bottom: 50px;
+    margin-right: 100px;
 }
 
 .guarantee__text2{
-    max-width: 50%;
-    margin-left: 1052px;
-    margin-top: -200px;
+    width: 50%;
 }
 
 .advantages{
     display: flex;
-    justify-content: center;
     margin-top: 100px;
+    margin-left: 150px;
     padding-bottom: 72px;
 }
 .pluses{
     display: flex;
+    
 }
 
 .pluses-line{
@@ -677,7 +678,6 @@ a{
     font-weight: 500;
     font-size: 18px;
     color: #FFFFFF;
-    white-space: pre-wrap !important;
 }
 /**footer**/
 .footer{
@@ -1209,6 +1209,7 @@ a{
 }
 
 .ad__text{
+    white-space: pre-wrap;
     font-weight: 300;
     margin-top: 10px;
 }

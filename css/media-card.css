@@ -2,6 +2,10 @@
     .choice__item{
         margin-right: 10px;
     }
+
+    .fone__block{
+        padding-left: 980px;
+    }
 }
 
 
@@ -24,10 +28,10 @@
         margin-left: 30px;
     }
 
-    .guarantee__text2{
+    /* .guarantee__text2{
         margin-left: 852px;
         margin-top: -200px;
-    }
+    } */
 
     .interest__text2{
         margin-left: -50px;
@@ -52,10 +56,6 @@
         margin-right: 10px;
         margin-bottom: 20px;
     
-    }
-
-    .fone__block{
-        padding-left: 960px;
     }
 }
 
@@ -103,8 +103,18 @@
     .input-mini{
         max-width: 600px;
     }
-    
 }
+
+@media(max-width: 1685px) {
+    .input-mini{
+        max-width: 600px;
+    }
+    .fone__block{
+        padding-left: 880px;
+    }
+}
+
+
 @media(max-width: 1758px) {
     .span{
         font-weight: bold;
@@ -275,11 +285,6 @@
         margin-left: 75px;
     }
 
-    .fone__block{
-        padding-left: 890px;
-        padding-top: 280px;
-    }
-
 }
 
 @media(max-width: 1705px) {
@@ -310,6 +315,11 @@
 
     .header__inner{
         margin-left: 50px;
+    }
+
+    .title__fone{
+        font-size: 36px;
+        line-height: 40px;
     }
 
 }
@@ -363,10 +373,10 @@
         margin-left: 5px;
     }
 
-    .guarantee__text2{
+    /* .guarantee__text2{
         margin-left: 852px;
         margin-top: -150px;
-    }
+    } */
 
     .guarantee__text{
         max-width: 621px;
@@ -444,10 +454,10 @@
         max-width: 350px;
     }
 
-    .guarantee__text2{
+    /* .guarantee__text2{
         margin-left: 682px;
         margin-top: -150px;
-    }
+    } */
 
     .guarantee__text{
         max-width: 621px;
@@ -460,17 +470,12 @@
 
     .fone__block{
         padding-left: 700px;
-        padding-top: 400px;
+        padding-top: 350px;
     }
 
     .title__fone{
         font-size: 36px;
         line-height: 40px;
-    }
-
-    .text__fone{
-        font-size: 11px;
-        line-height: 13px;
     }
 }
 
@@ -482,6 +487,20 @@
     }
 }
 
+@media(max-width: 1240px) {
+    .fone__block{
+        padding-left: 630px;
+        padding-top: 350px;
+    }
+
+    .title__fone{
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .text__fone{
+        font-size: 10px;
+    }
+}
 
 @media(max-width: 1261px) {
     .logo{
@@ -492,24 +511,6 @@
         margin-left: 5px;
         margin-right: 15px;
     }
-}
-
-@media(max-width: 1240px) {
-    .title__fone{
-        font-size: 28px;
-        line-height: 32px;
-    }
-
-    .text__fone{
-        font-size: 10px;
-        line-height: 11px;
-    }
-
-    .fone__block{
-        padding-left: 630px;
-        padding-top: 400px;
-    }
-
 }
 
 @media(max-width:1305px) {
@@ -543,10 +544,10 @@
     }
 
 
-    .guarantee__text2{
+    /* .guarantee__text2{
         margin-left: 560px;
         margin-top: -230px;
-    }
+    } */
 
     .guarantee__text{
         max-width: 550px;
@@ -574,9 +575,12 @@
     .line__bottom{
         margin-top: 400px;
     }
+}
 
+@media(max-width: 1130px) {
     .fone__block{
-        padding-left: 600px;
+        padding-top: 450px;
+        padding-left: 550px;
     }
 }
 
@@ -711,11 +715,11 @@
     .sub__menu-list{
         margin-left: 30px;
     }
-
+/* 
     .guarantee__text2{
         margin-left: 460px;
         margin-top: -195px;
-    }
+    } */
 
     .guarantee__text{
         max-width: 420px;
@@ -957,10 +961,10 @@
         margin-top: 49px;
     }
 
-    .guarantee__text2{
+    /* .guarantee__text2{
         margin-left: 300px;
         margin-top: -175px;
-    }
+    } */
 
     .guarantee__text{
         max-width: 360px;
@@ -1142,10 +1146,10 @@
         margin-top: 0px;
     }
 
-    .guarantee__text2{
+    /* .guarantee__text2{
         margin-left: 200px;
         margin-top: -265px;
-    }
+    } */
 
     .guarantee__text{
         max-width: 150px;
@@ -1158,8 +1162,6 @@
 
     .guarantee__text1{
         max-width: 150px;
-        color: #fff;
-        font-weight: 500;
         font-size: 10px;
         line-height: 12px;
     }
@@ -1424,10 +1426,10 @@
 
 @media(max-width: 340px) {
 
-    .guarantee__text2{
+    /* .guarantee__text2{
         margin-left: 170px;
         margin-top: -265px;
-    }
+    } */
 
     .guarantee__text{
         max-width: 150px;
@@ -1438,12 +1440,5 @@
     }
 
 
-    .guarantee__text1{
-        max-width: 150px;
-        color: #fff;
-        font-weight: 500;
-        font-size: 10px;
-        line-height: 12px;
-    }
     
 }
