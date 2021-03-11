@@ -654,13 +654,12 @@ a{
 
 .advantages{
     display: flex;
+    justify-content: center;
     margin-top: 100px;
-    margin-left: 150px;
     padding-bottom: 72px;
 }
 .pluses{
     display: flex;
-    
 }
 
 .pluses-line{
@@ -678,6 +677,7 @@ a{
     font-weight: 500;
     font-size: 18px;
     color: #FFFFFF;
+    white-space: pre-wrap !important;
 }
 /**footer**/
 .footer{
@@ -1209,7 +1209,6 @@ a{
 }
 
 .ad__text{
-    white-space: pre-wrap;
     font-weight: 300;
     margin-top: 10px;
 }
