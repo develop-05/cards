@@ -104,15 +104,41 @@
 @media(max-width: 1758px) {
     .span{
         font-weight: bold;
-        /* display: flex; */
-        /* justify-content: center; */
-        display: inline-block;
         margin-left: 0px;
+    }
+
+    .advantages{
+        display: flex;
+        flex-wrap: wrap;
     }
     
 }
 
+@media(max-width: 1720px) {
+    .span{
+        font-weight: bold;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: inline-block;
+        margin-left: 0px;
+    }
+    .ad__text{
+        font-size: 18px;
+    }
 
+    .pluses-wrap{
+        margin-top: 30px;
+    }
+}
+@media(max-width: 1395px) {
+    .pluses-line{
+        display: none;
+    }
+    .pluses{
+        margin-top: 30px;
+    }
+}
 
 
 @media(max-width: 1515px) {
