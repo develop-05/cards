@@ -1,1 +1,1 @@
-> https://denys-lucky.github.io/cards/main.html
+> https://Develop-05.github.io/cards/main.html
