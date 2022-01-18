@@ -1,1 +1,1 @@
-> https://Develop-05.github.io/cards/main.html
+> https://develop-05.github.io/cards/main.html
